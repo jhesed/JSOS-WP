@@ -1,0 +1,104 @@
+/*
+Theme Name: JSOS Theme
+Description: Child theme for llorix-one-lite
+Author: Jhesed Tacadena
+Template: llorix-one-lite
+Version: 1.0.0
+*/
+div#content {
+    background: #fffaa2;
+}
+.navbar-header {
+    width: 100%;
+    background-color: #e0a800;
+    background-image: url("images/textures/nice-snow.png");
+}
+#menu-container-bg{
+    display: block;
+}
+.navbar-background-color{
+    margin:auto;
+}
+.site-header-menu{ 
+/*#menu-container-bg{*/
+    background: rgba(44,27,16,1);
+    background: -moz-linear-gradient(top, rgba(44,27,16,1) 0%, rgba(93,54,29,1) 50%, rgba(44,27,16,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,27,16,1)), color-stop(50%, rgba(93,54,29,1)), color-stop(100%, rgba(44,27,16,1)));
+    background: -webkit-linear-gradient(top, rgba(44,27,16,1) 0%, rgba(93,54,29,1) 50%, rgba(44,27,16,1) 100%);
+    background: -o-linear-gradient(top, rgba(44,27,16,1) 0%, rgba(93,54,29,1) 50%, rgba(44,27,16,1) 100%);
+    background: -ms-linear-gradient(top, rgba(44,27,16,1) 0%, rgba(93,54,29,1) 50%, rgba(44,27,16,1) 100%);
+    background: linear-gradient(to bottom, rgba(44,27,16,1) 0%, rgba(93,54,29,1) 50%, rgba(44,27,16,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c1b10', endColorstr='#2c1b10', GradientType=0 );
+    width: 100%;
+    padding-top:8px;
+    /*margin:0;*/
+}
+.menu-align-center .primary-menu > li a, .sticky-navigation .main-navigation li a{
+    color:white;
+}
+.menu
+.sticky-navigation, .sticky-navigation-open {
+    min-height: 0;
+}
+
+/* ---------------------- FOOTER -----------------*/
+.footer {
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #D97220 0%, #86410B 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #D97220 0%, #86410B 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #D97220 0%, #86410B 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D97220), color-stop(100, #86410B));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #D97220 0%, #86410B 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #D97220 0%, #86410B 100%);
+    padding-top: 10px;
+}
+.footer a, footer.footer .widget-title {
+    background: None;
+    color: #ffe294;
+}
+.line_brown {
+    background: #dd5d02;
+    height: 4px;
+}
+.vline_brown {
+    background: #dd5d02;
+    width: 4px;
+}
+.footer_line {
+    margin-top:0;
+    background: #753B0B;
+    height: 4px;
+}
+
+/* ----------- SPRITES -----------------*/
+
+ul#icon_sprite_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#icon_sprite_bar li{
+    width:33%;
+    float:left;
+    display:block;
+    cursor:pointer;
+}
+.icon_sprite{
+    cursor:pointer;
+    background:url(images/home/icon_sprite.png) no-repeat top left;
+}   
+.preload-icons-home {
+    background:url(images/home/icon_sprite_hover.png) no-repeat -9999px -9999px;
+}
+.ic_wb{ background-position: 0 0; height: 110px; } 
+.ic_ps{ background-position: 0 -120px; height: 110px; } 
+.ic_pr{ background-position: 0 -225px; height: 110px; }
+
+.ic_wb:hover{ background:url(images/home/icon_sprite_hover.png) no-repeat top left; background-position: 0 0; height: 110px; } 
+.ic_ps:hover{ background:url(images/home/icon_sprite_hover.png) no-repeat top left; background-position: 0 -120px; height: 110px; } 
+.ic_pr:hover{ background:url(images/home/icon_sprite_hover.png) no-repeat top left; background-position: 0 -225px; height: 110px; }

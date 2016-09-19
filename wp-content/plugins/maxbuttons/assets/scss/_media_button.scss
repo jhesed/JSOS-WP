@@ -1,0 +1,71 @@
+.media-buttons
+{
+	#maxbuttons { 
+		margin: 0; 
+		overflow-y: auto;
+			
+		.preview-buttons { 
+			border: 0; 
+ 
+			clear: both;
+		 } 
+ 
+		 .button-select {
+		 	cursor: pointer; 
+		 	border: 1px solid #fff; 
+		 }
+		 .button-select.selected {
+		 	border-top: 1px solid #0085ba;
+		 	border-bottom: 1px solid #0085ba;	
+		 	.col_insert .small {
+		 		font-weight: 700;
+		 	}	 	
+		 }
+		.col_insert { 
+			width: 150px;
+			padding-top: 15px; 
+			.small { 
+				font-size: 10px; 
+			}	
+		}
+	} 
+	.pagination  {
+		width: 100%; 
+		margin: 10px 0;
+		min-height: 20px; 
+		span {
+			font-size: 15px; 
+			font-weight: 700;
+			float: left; 
+			cursor: pointer;
+		}
+		.next { float: right; }
+	
+	}
+
+	
+	.loading { 
+		background: rgba(0, 0, 0, 0) url("../../images/spinner.gif") no-repeat scroll 0 0 / 20px 20px;
+		display: inline-block;
+		float: right;
+		margin: 5px 5px 0 0;
+		height: 40px;
+		opacity: 0.7;
+		vertical-align: middle;
+		visibility: hidden;
+		width: 40px;	
+	
+	}	
+	.controls {
+		position: absolute;
+		width: 100%; 
+		padding: 10px 0;
+		background: #f3f3f3;
+		text-align: right;
+		bottom: 0; 
+		left: 0; 
+		border-top: 1px solid #ccc;
+		
+	}
+
+}

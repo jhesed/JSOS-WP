@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MayaSilk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Jul 19 2016 12:07:17 GMT+0600 (Bangladesh Standard "
+"Time)\n"
+"PO-Revision-Date: Sat Jul 23 2016 17:45:46 GMT+0600 (Bangladesh Standard "
+"Time)\n"
+"Last-Translator: admin <mehedi.rr@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../author.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../author.php:61 ../content-audio.php:62 ../content-video.php:76 ../content.
+#: php:74
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:24 ../content-audio.php:30 ../content-image.php:50 ..
+#: content-link.php:18 ../content-quote.php:16 ../content-video.php:44 ..
+#: content.php:42
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-aside.php:24 ../content-audio.php:30 ../content-image.php:50 ..
+#: content-link.php:18 ../content-quote.php:16 ../content-video.php:44 ..
+#: content.php:42
+msgid "1 comment"
+msgstr ""
+
+#: ../content-aside.php:24 ../content-audio.php:30 ../content-image.php:50 ..
+#: content-link.php:18 ../content-quote.php:16 ../content-video.php:44 ..
+#: content.php:42
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../content-aside.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-aside.php:34 ../content-audio.php:51 ../content-image.php:69 ..
+#: content-link.php:26 ../content-page.php:24 ../content-quote.php:25 ../content-
+#: status.php:35 ../content-video.php:65 ../content.php:63 ../functions.php:277 ..
+#: image.php:37
+msgid "Edit"
+msgstr ""
+
+#: ../content-audio.php:26 ../content-image.php:46 ../content-video.php:40 ..
+#: content.php:38
+msgid "Posts by"
+msgstr ""
+
+#: ../content-audio.php:44 ../content-image.php:62 ../content-video.php:58 ..
+#: content.php:56
+msgid "Tags:"
+msgstr ""
+
+#: ../content-audio.php:46 ../content-image.php:64 ../content-page.php:21 ..
+#: content-video.php:60 ../content.php:58 ../image.php:102
+msgid "Pages:"
+msgstr ""
+
+#: ../content-audio.php:66 ../content-video.php:80 ../content.php:78
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-image.php:25
+msgid "Gallery image"
+msgstr ""
+
+#: ../content-link.php:13
+msgid "Link"
+msgstr ""
+
+#: ../content-none.php:13 ../index.php:80 ../search.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:17 ../index.php:84
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../footer.php:43
+msgid "&copy;"
+msgstr ""
+
+#: ../footer.php:48 ../footer.php:48
+msgid "Mayasilk"
+msgstr ""
+
+#: ../footer.php:49
+msgid "powered by"
+msgstr ""
+
+#: ../footer.php:49 ../footer.php:49
+msgid "WordPress"
+msgstr ""
+
+#: ../functions.php:68
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:184
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:213
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:215
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: ../functions.php:245
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:245
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:260
+msgid "Post author"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: ../functions.php:266
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:272
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:281
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:369
+msgid "Footer Logo"
+msgstr ""
+
+#: ../functions.php:377
+msgid "Footer Content"
+msgstr ""
+
+#: ../functions.php:386
+msgid "Facebook URL"
+msgstr ""
+
+#: ../functions.php:395
+msgid "Twitter URL"
+msgstr ""
+
+#: ../functions.php:404
+msgid "Youtube URL"
+msgstr ""
+
+#: ../functions.php:413
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../functions.php:422
+msgid "Instagram URL"
+msgstr ""
+
+#: ../functions.php:431
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../functions.php:440
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../functions.php:449
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../functions.php:462
+msgid "Color Scheme."
+msgstr ""
+
+#: ../functions.php:464
+msgid ""
+"Color Scheme include h1, h2, h3, h4, h5, h6, a, continue-reading text "
+"background, search submit backgournd all anchor & anchor hover, menu active "
+"link."
+msgstr ""
+
+#: ../functions.php:470
+msgid "Color Settings"
+msgstr ""
+
+#: ../functions.php:513
+msgid "Type Here..."
+msgstr ""
+
+#: ../functions.php:644
+msgid "Recent Posts"
+msgstr ""
+
+#: ../functions.php:713 ../functions.php:949
+msgid "Title:"
+msgstr ""
+
+#: ../functions.php:716
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../functions.php:731
+msgid "Continue Reading"
+msgstr ""
+
+#: ../functions.php:775
+msgid "Location"
+msgstr ""
+
+#: ../functions.php:785
+msgid "Featured"
+msgstr ""
+
+#: ../functions.php:786
+msgid "Do not display"
+msgstr ""
+
+#: ../functions.php:788
+msgid "Post location on the home page"
+msgstr ""
+
+#: ../functions.php:812
+msgid "About Me"
+msgstr ""
+
+#: ../functions.php:813
+msgid ""
+"Display About Me Block with Image, social icon, short description on your "
+"sidebar widget"
+msgstr ""
+
+#: ../functions.php:952
+msgid "Sub Title:"
+msgstr ""
+
+#: ../functions.php:958
+msgid "Image"
+msgstr ""
+
+#: ../functions.php:963
+msgid "Upload Image"
+msgstr ""
+
+#: ../functions.php:969
+msgid ""
+"Choose your extended \"About Me\" page. This will be the page linked to at the "
+"end of your author description."
+msgstr ""
+
+#: ../functions.php:976
+msgid "None"
+msgstr ""
+
+#: ../functions.php:981
+msgid "Extended page link text:"
+msgstr ""
+
+#: ../functions.php:982
+msgid "Read More ..."
+msgstr ""
+
+#: ../functions.php:988
+msgid "Facebook:"
+msgstr ""
+
+#: ../functions.php:991
+msgid "Twitter:"
+msgstr ""
+
+#: ../functions.php:994
+msgid "Youtube:"
+msgstr ""
+
+#: ../functions.php:997
+msgid "Linkedin:"
+msgstr ""
+
+#: ../functions.php:1000
+msgid "Pinterest:"
+msgstr ""
+
+#: ../functions.php:1003
+msgid "Instagram:"
+msgstr ""
+
+#: ../functions.php:1006
+msgid "Google Plus:"
+msgstr ""
+
+#: ../image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span "
+"class=\"entry-date\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: ../image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../index.php:38
+msgid "Read More"
+msgstr ""
+
+#: ../index.php:69
+msgid "No posts to display"
+msgstr ""
+
+#: ../index.php:73
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#. Name of the template
+msgid "Full-width Page Template, No Sidebar"
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../single.php:41
+msgid "&laquo; Previous Story"
+msgstr ""
+
+#: ../single.php:70
+msgid "Next Story &raquo;"
+msgstr ""
+
+#: ../tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. Name of the theme
+msgid "MayaSilk"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://themeix.com/themes/mayasilk/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Mayasilk is a fully responsive Wordpress theme that looks great on any "
+"device. Features include a Full Width Page template, an optional display "
+"font, styling for post formats on both index and single views, and an "
+"optional no-sidebar page template. Make it yours with a custom menu, logo, "
+"Color Scheme, Sticky Post."
+msgstr ""
+
+#. Author of the theme
+msgid "Themeix"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeix.com/"
+msgstr ""

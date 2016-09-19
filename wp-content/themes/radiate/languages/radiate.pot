@@ -1,0 +1,354 @@
+# Copyright (C) 2016 ThemeGrill
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Radiate 1.2.2\n"
+"Report-Msgid-Bugs-To: themegrill@gmail.com\n"
+"POT-Creation-Date: 2016-09-01 12:08:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Try searching with some "
+"keywords."
+msgstr ""
+
+#: archive.php:33
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:41
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:44
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:50
+msgid "Asides"
+msgstr ""
+
+#: archive.php:53
+msgid "Images"
+msgstr ""
+
+#: archive.php:56
+msgid "Videos"
+msgstr ""
+
+#: archive.php:59
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:62
+msgid "Links"
+msgstr ""
+
+#: archive.php:65 sidebar.php:19
+msgid "Archives"
+msgstr ""
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:57
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:58
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:24 content-single.php:24 content.php:43
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:29 content-single.php:57 content.php:77
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:34 content-single.php:44 content.php:54 content.php:64
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: content-single.php:54 content.php:74
+msgid "Leave a comment"
+msgstr ""
+
+#: content-single.php:54 content.php:74
+msgid "1 Comment"
+msgstr ""
+
+#: content-single.php:54 content.php:74
+msgid "% Comments"
+msgstr ""
+
+#: content.php:40
+msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:19
+msgid "Proudly  powered by "
+msgstr ""
+
+#: footer.php:20
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:22
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: front-page.php:36
+msgid "Read more"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:88
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:47
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-header.php:41
+msgid "Header Image One"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "View Pro"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Support"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "View Demo"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Radiate Important Links"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Important Links"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Add your custom css here and design live! (for advanced users)"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Front Page Featured Section"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "First featured page"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Second featured page"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Third featured page"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Author Bio"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Check to enable the Author Bio in the single post page."
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Header Search Icon"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Check to hide Header Search Icon."
+msgstr ""
+
+#: inc/customizer.php:282
+msgid "Responsive Menu Style"
+msgstr ""
+
+#: inc/customizer.php:300
+msgid "Switch to new responsive menu style."
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "Post author"
+msgstr ""
+
+#: inc/template-tags.php:102
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr ""
+
+#: inc/template-tags.php:110
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:115
+msgid "Reply"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Radiate"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themegrill.com/themes/radiate/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Radiate is a clean, creative and light retina ready responsive blogging "
+"theme supporting parallax header image. It integrates primary color option, "
+"custom background, custom css and few other features through WordPress "
+"customizer. The theme is translation ready and you can get free support on "
+"http://themegrill.com/support-forum. View demo at "
+"http://demo.themegrill.com/radiate."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeGrill"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themegrill.com/"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
