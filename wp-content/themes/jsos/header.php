@@ -189,7 +189,7 @@
 
                 <!-- CONTAINER -->
                 <div class="header">
-                    <div class="navbar-background-color">
+                    <!-- <div class="navbar-background-color"> -->
                         <div class="container navbar-header">
                          
                             <!-- LOGO -->
@@ -253,11 +253,12 @@
                     <div itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="<?php esc_html_e('Primary Menu','llorix-one-lite') ?>" id="menu-primary" class="navbar-collapse collapse">
                         <!-- LOGO ON STICKY NAV BAR -->
 
-                        <div id="menu-container-bg">
+                        <!-- <div id="menu-container-bg"> -->
                             <div id="site-header-menu" class="container site-header-menu">
                                 <nav id="site-navigation" class="main-navigation" role="navigation">
                                 <?php 
                                     wp_nav_menu( 
+                                    // shailan_dropdown_menu(
                                         array( 
                                             'theme_location'    => 'primary',
                                             'menu_class'        => 'primary-menu small-text',
@@ -268,10 +269,10 @@
                                 ?>
                                 </nav>
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
                     
-                </div>
+                <!-- </div> -->
                 <!-- /END CONTAINER -->
             </div>
             <!-- /END STICKY NAVIGATION -->

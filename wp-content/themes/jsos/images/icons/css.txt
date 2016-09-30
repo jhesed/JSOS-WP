@@ -1,0 +1,6 @@
+#fb-icon {
+    background: url(icon-fb.png) no-repeat top left;
+}
+
+.fb-static{ background-position: 0 0; width: 31px; height: 32px; } 
+.fb-clicked{ background-position: 0 -33px; width: 31px; height: 32px; } 
