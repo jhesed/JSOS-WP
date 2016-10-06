@@ -5,6 +5,7 @@
 add_filter('stylesheet_uri', 'use_parent_theme_stylesheet');
 // Enqueue this theme's scripts and styles (after parent theme)
 add_action('wp_enqueue_scripts', 'my_theme_styles', 20);
+// add_action('wp_enqueue_scripts', 'jquery', 20);
 remove_filter('the_content', 'wpautop');
 function use_parent_theme_stylesheet()
 {
@@ -15,7 +16,6 @@ function use_parent_theme_stylesheet()
 function my_theme_styles()
 {
     $themeVersion = wp_get_theme()->get('Version');
-
     // Enqueue our style.css with our own version
     wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/style.css',
         array(), $themeVersion);

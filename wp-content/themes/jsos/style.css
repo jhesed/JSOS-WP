@@ -19,15 +19,44 @@ Version: 1.0.0
   left: 3px;
   background:#fffaa2;
 }
-.su-spoiler.my-custom-spoiler .su-spoiler-content { background-color:#fffaa2 }
+.su-spoiler.my-custom-spoiler .su-spoiler-content { 
+  background-color:#fffaa2 
+}
+
+/* Tabs */
+.su-tabs.my-custom-tabs { 
+  background-color: #57311a;
+}
+.su-tabs.my-custom-tabs .su-tabs-nav span { 
+    font-size: 1.0em;
+    color:white;
+ }
+.su-tabs.my-custom-tabs .su-tabs-nav span:hover {
+  color:#57311a;
+}
+.su-tabs.my-custom-tabs .su-tabs-nav span.su-tabs-current { 
+    background-color: #fffaa2;
+    color:#57311a;
+}
+.su-tabs.my-custom-tabs .su-tabs-pane {
+  padding: 1em;
+  background-color: #fffaa2;
+  vertical-align: middle;
+  padding: 50px;
+}
 
 div#content, div#primary {
     background: #fffaa2;
 }
-.navbar-header {
-    width: 100%;
+.navbar-header, .give {
     background-color: #e0a800;
     background-image: url("images/textures/nice-snow.png");
+}
+.navbar-header{
+    width: 100%;
+}
+.give{
+  border-radius: 3px;
 }
 #menu-container-bg{
     display: block;
@@ -422,3 +451,56 @@ hr{
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+/******************************************************
+                  ABOUT US - MO
+******************************************************/
+.jsos-center{
+  width:1000px;
+  margin:auto;
+  clear:both;
+}
+.aup, .aut{
+    width:222px;
+    height:138px;
+}
+.aup{
+    background: url(images/aboutus/aup.jpg) no-repeat top center;
+  float:left;
+  margin-top:10px;
+  position:relative;
+  cursor:pointer;
+  margin-left:20px;
+}
+/* ministerial objectives */
+.aup_1{ background-position: 0 0;} 
+.aup_10{ background-position: 0 -139px;} 
+.aup_11{ background-position: 0 -278px;} 
+.aup_12{ background-position: 0 -417px;} 
+.aup_2{ background-position: 0 -556px;} 
+.aup_3{ background-position: 0 -695px;} 
+.aup_5{ background-position: 0 -834px;} 
+.aup_6{ background-position: 0 -973px;} 
+.aup_7{ background-position: 0 -1112px;} 
+.aup_8{ background-position: 0 -1251px;} 
+.aup_9{ background-position: 0 -1390px;} 
+.aut{
+    background:url(images/aboutus/aut.jpg) no-repeat top left;
+  display:none;
+  position:absolute;
+  cursor:pointer;
+  left:0;
+  bottom:0;
+}
+.aut_1{ background-position: 0 0;} 
+.aut_10{ background-position: 0 -139px;} 
+.aut_11{ background-position: 0 -278px;} 
+.aut_12{ background-position: 0 -417px;} 
+.aut_2{ background-position: 0 -556px;} 
+.aut_3{ background-position: 0 -695px;} 
+.aut_4{ background-position: 0 -834px;} 
+.aut_5{ background-position: 0 -973px;} 
+.aut_6{ background-position: 0 -1112px;} 
+.aut_7{ background-position: 0 -1251px;} 
+.aut_8{ background-position: 0 -1390px;} 
+.aut_9{ background-position: 0 -1529px;}
