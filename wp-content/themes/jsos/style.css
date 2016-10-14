@@ -45,8 +45,45 @@ Version: 1.0.0
   padding: 50px;
 }
 
-div#content, div#primary {
-    background: #fffaa2;
+/* Feeds */
+.fts-jal-fb-header {
+    display: none;
+}
+.fts-jal-fb-message, span.fts-jal-fb-user-name, span.fts-jal-fb-post-time {
+    line-height: 100%;
+    font-style:italic;
+    color:#326342;
+    font-size:12px;
+}
+.fts-jal-fb-message{
+}
+.fts-jal-fb-group-display, .fts-twitter-div {
+    background: #FFE761;
+    padding:20px;
+    border-radius: 15px;
+}
+.fts-jal-fb-link-wrap, .fts-album-photos-wrap, .fts-jal-fb-user-thumb{
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111; 
+}
+
+/* Charitable */
+.campaign-loop.campaign-grid .wp-post-image {
+    height:250px;
+    width: 250px;
+    border: 5px solid #57311a;
+
+    display: block;
+    margin: 10px auto;
+    padding:0;
+}
+/**********************************************************************
+                              JSOS
+**********************************************************************/
+
+div#content, div#primary, .content-wrap {
+    background: #fffaa2; /* Original */
+    /*background: #FCF141;*/
 }
 .navbar-header, .give {
     background-color: #e0a800;
@@ -291,8 +328,12 @@ hr{
 
 .pic {
   border: 10px solid #fff; 
-  float: left;
-  margin: 20px;
+  overflow: hidden; 
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111; 
+}
+.jsos-slider{
+  border: 8px solid #fff; 
   overflow: hidden; 
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px #111; 
@@ -504,3 +545,10 @@ hr{
 .aut_7{ background-position: 0 -1251px;} 
 .aut_8{ background-position: 0 -1390px;} 
 .aut_9{ background-position: 0 -1529px;}
+
+/***************************************************************************
+                                SHARED
+****************************************************************************/
+.mr-20{
+  margin-right: 20px;
+}
