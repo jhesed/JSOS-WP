@@ -127,7 +127,100 @@ div#content, div#primary, .content-wrap {
 .sticky-navigation, .sticky-navigation-open {
     min-height: 0;
 }
+/**WALL**/
+.wall{
+    background-image:url(images/home/wall.jpg);
+    background-repeat:repeat;
+    width: 100%;
+    display: inline-block;
+    padding:30px;
+}
+h2.su-post-title a, .su-post-meta{
+  font-family: "Century Gothic", Arial;
+  font-weight:bold;
+  font-size:1.2em;
+  color:white;
+}
+h2.su-post-title a  {
+  text-transform:uppercase;
+}
+.wall_author {
+  font-style: italic;
+  font-size: 1.0em;
+  color: gray;
+  clear:both; 
+  font-family: "Century Gothic", Arial;
+  color:white;
+}
+.su-post-meta, .wall_amen_count { 
+  color:#FFC944;
+}
+.su-post-excerpt p, .wall_amen_count{
+  font-family: "Century Gothic", Arial;
+  font-size:1.0em;
+  color:white;
+}
+.wall_amen_count {
+  font-size:.8em;
+}
+.amen {
+  background: #ffc341;
+  background-image: -webkit-linear-gradient(top, #ffc341, #fcf45a);
+  background-image: -moz-linear-gradient(top, #ffc341, #fcf45a);
+  background-image: -ms-linear-gradient(top, #ffc341, #fcf45a);
+  background-image: -o-linear-gradient(top, #ffc341, #fcf45a);
+  background-image: linear-gradient(to bottom, #ffc341, #fcf45a);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  -webkit-box-shadow: 3px 2px 3px #210421;
+  -moz-box-shadow: 3px 2px 3px #210421;
+  box-shadow: 3px 2px 3px #210421;
+  font-family: Arial;
+  font-weight:bold;
+  color: #000000;
+  font-size: 11px;
+  padding: 5px 8px 5px 8px;
+  text-decoration: none;
+  cursor:pointer;
+}
+.amen:hover {
+  background: #f7b018;
+  background-image: -webkit-linear-gradient(top, #f7b018, #f7f06c);
+  background-image: -moz-linear-gradient(top, #f7b018, #f7f06c);
+  background-image: -ms-linear-gradient(top, #f7b018, #f7f06c);
+  background-image: -o-linear-gradient(top, #f7b018, #f7f06c);
+  background-image: linear-gradient(to bottom, #f7b018, #f7f06c);
+  text-decoration: none;
+}
+.amen a, .amen a:hover{
+  color:#000000;
+  text-decoration:none;
+}
+#user-submitted-posts, .su-post {
+    /*
+  background-color: rgba(215, 224, 101, 0.5);
+  background: rgba(215, 224, 101, 0.5);
+  */
+  background: rgba(77, 43, 23, 0.7);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 
+  -moz-box-shadow: 5px 5px 8px #000000;
+  -webkit-box-shadow: 5px 5px 8px #000000;
+  box-shadow: 5px 5px 8px #000000;
+  color: white;
+  padding:30px;
+}
+.wall form{
+  height: 100%;
+  padding-bottom:60px;
+}
+div#user-submitted-posts fieldset input.usp-input, 
+div#user-submitted-posts textarea.usp-textarea{
+  width:100%;
+}
 /* ---------------------- FOOTER -----------------*/
 .footer {
     /* IE10+ */ 
