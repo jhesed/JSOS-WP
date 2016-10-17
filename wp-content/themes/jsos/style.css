@@ -221,6 +221,10 @@ div#user-submitted-posts fieldset input.usp-input,
 div#user-submitted-posts textarea.usp-textarea{
   width:100%;
 }
+div#usp-success-message {
+    font-size: 1.2em;
+    text-align: center;
+}
 /* ---------------------- FOOTER -----------------*/
 .footer {
     /* IE10+ */ 
