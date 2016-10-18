@@ -20,3 +20,13 @@ function my_theme_styles()
     wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/style.css',
         array(), $themeVersion);
 }
+
+add_action('after_setup_theme', 'remove_admin_bar');
+
+function remove_admin_bar() {
+if (!current_user_can('administrator') && !is_admin()) {
+  show_admin_bar(false);
+}
+}
+/* Disable WordPress Admin Bar for all users but admins. */
+  //show_admin_bar(false);
