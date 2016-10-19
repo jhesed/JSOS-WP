@@ -30,3 +30,10 @@ if (!current_user_can('administrator') && !is_admin()) {
 }
 /* Disable WordPress Admin Bar for all users but admins. */
   //show_admin_bar(false);
+// BEGIN ENQUEUE PARENT ACTION
+// AUTO GENERATED - Do not modify or remove comment markers above or below:
+
+// END ENQUEUE PARENT ACTION
+
+//  for changed port
+// remove_filter('template_redirect','redirect_canonical');

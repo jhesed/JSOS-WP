@@ -936,9 +936,9 @@ p.site-description {
 }
 
 /* STICKY NAVIGATION AND LOGO */
-#menu-primary {
+/*#menu-primary {
 	float: right;
-}
+}*/
 
 .appear-on-scroll {
     opacity: 0;
@@ -5693,7 +5693,7 @@ h2.screen-reader-text {
 
 	.menu-align-center .primary-menu, 	.menu-align-center .no-menu{
     	text-align: center;
-    	width: 100%;
+    	/*width: 100%;*/
     	margin-bottom: 10px;
 		padding: 0;
 	}

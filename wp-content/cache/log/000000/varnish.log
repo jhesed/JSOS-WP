@@ -2,3 +2,27 @@
 [Tue, 18 Oct 2016 08:21:13 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
 [Tue, 18 Oct 2016 08:21:13 +0000] [http://localhost/jsos_wp/.*] Host: localhost
 [Tue, 18 Oct 2016 08:21:13 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Tue, 18 Oct 2016 09:26:48 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Tue, 18 Oct 2016 09:26:48 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Tue, 18 Oct 2016 09:26:48 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Tue, 18 Oct 2016 09:26:48 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Tue, 18 Oct 2016 09:30:29 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Tue, 18 Oct 2016 09:30:29 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Tue, 18 Oct 2016 09:30:29 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Tue, 18 Oct 2016 09:30:29 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Tue, 18 Oct 2016 09:35:29 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Tue, 18 Oct 2016 09:35:29 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Tue, 18 Oct 2016 09:35:29 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Tue, 18 Oct 2016 09:35:29 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Tue, 18 Oct 2016 09:36:31 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Tue, 18 Oct 2016 09:36:31 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Tue, 18 Oct 2016 09:36:31 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Tue, 18 Oct 2016 09:36:31 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Tue, 18 Oct 2016 09:38:06 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Tue, 18 Oct 2016 09:38:06 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Tue, 18 Oct 2016 09:38:06 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Tue, 18 Oct 2016 09:38:06 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
