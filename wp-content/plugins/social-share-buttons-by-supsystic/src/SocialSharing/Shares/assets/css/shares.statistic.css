@@ -1,0 +1,50 @@
+.supsystic-plugin .stats-block {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.supsystic-plugin .stats-block canvas {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.supsystic-plugin .stats-block h2 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 5px 0 15px 0;
+}
+
+.supsystic-plugin .options-wp .option {
+  margin-left: 25px;
+}
+
+.supsystic-plugin .options-wp .option + .option {
+    margin-top: 18px;
+}
+
+.supsystic-plugin .options-wp .option.option-list-container .option-title {
+    margin-bottom: 13px;
+    margin-left: 0;
+}
+
+.supsystic-plugin .options-wp .option.option-list-container .option-item {
+    margin-left: 10px;
+}
+
+.supsystic-plugin .options-wp .option.option-list-container .option-item + .option-item {
+    margin-top: 5px;
+}
+
+.supsystic-plugin .options-wp .option.option-list-container .option-item .option-title {
+    margin-left: 10px;
+}
+
+.supsystic-plugin .options-wp .option .option-title {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.supsystic-plugin .options-wp .option .icheckbox_minimal {
+    margin-top: -3px;
+}

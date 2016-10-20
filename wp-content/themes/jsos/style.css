@@ -127,6 +127,18 @@ div#content, div#primary, .content-wrap {
 .sticky-navigation, .sticky-navigation-open {
     min-height: 0;
 }
+.current-menu-item a, .current-page_item a{
+    color:red;
+}
+.menu-align-center .primary-menu > li.current-menu-item a, 
+.menu-align-center .primary-menu > li.current-page-parent a{
+    text-decoration: underline;
+}
+.menu-align-center .primary-menu > li.current-menu-item > .sub-menu a,
+.menu-align-center .primary-menu > li.current-page-parent > .sub-menu a{
+    text-decoration: none;
+}
+
 /**WALL**/
 .wall{
     background-image:url(images/home/wall.jpg);

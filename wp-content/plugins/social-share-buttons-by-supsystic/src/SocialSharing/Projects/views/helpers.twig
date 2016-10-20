@@ -1,0 +1,61 @@
+{% macro networkSettings(network, data, environment) %}
+    <nav class="network-navigation">
+        <span class="network-nav-item admin-nav-text" data-type="title">
+            {{ environment.translate('Title') }}
+        </span> |
+        <span class="network-nav-item admin-nav-text active" data-type="name">
+            {{ environment.translate('Button Text') }}
+        </span> |
+        <span class="network-nav-item admin-nav-text" data-type="tooltip">
+            {{ environment.translate('Tooltip') }}
+        </span>
+        {% if '{title}' in network.url %}
+         |
+        <span class="network-nav-item admin-nav-text" data-type="text_format">
+            {{ environment.translate('Default message') }}
+        </span>
+        {% endif %}
+        {% if network.class == 'twitter' %}
+         |
+        <span class="network-nav-item admin-nav-text" data-type="use_short_url">
+            {{ environment.translate('Short url') }}
+        </span>
+        {% endif %}
+        |
+       <span class="network-nav-item admin-nav-text" data-type="icon_image">
+           {{ environment.translate('Image') }}
+       </span>
+    </nav>
+
+    <div class="information-container">
+        <input type="text" class="network-title" data-id="{{ network.id }}" value="{{ network.title | default(network.name) }}" hidden>
+        <input type="text" class="network-name" data-id="{{ network.id }}" value="{{ network.text | default(environment.translate('Share')) }}">
+        <input type="text" class="network-tooltip" name="networkTooltip" data-id="{{ network.id }}" value="{{ network.tooltip | default(network.name) }}" hidden/>
+        {% if '{title}' in network.url %}
+        <input type="text" class="network-text_format" name="networkTextFormat" data-id="{{ network.id }}" value="{{ network.text_format | default('[page_title]') }}" hidden/>
+        {% endif %}
+        {% if network.class == 'twitter' %}
+        <div class="field" data-param="use_short_url" data-id="{{ network.id }}">
+            <label>Use short url</label>
+            <input type="checkbox" data-id="{{ network.id }}" class="network-use_short_url" name="networkShortUrl" {% if network.use_short_url %} checked {% endif %} hidden/>
+        </div>
+        {% endif %}
+        <div class="field network-field-container network-icon_image-container" data-param="icon_image" data-id="{{ network.id }}">
+            <input type="hidden" data-id="{{ network.id }}" name="networkIconImage" {% if network.icon_image %} value="{{ network.icon_image }}" {% endif %} class="network-icon_image networkIconImage">
+
+            <div class="icon-image-container">
+                <div class="icon-image-preview-container">
+                    <span class="icon-image-preview-image {% if not network.icon_image %} not-active {% endif %}" {% if network.icon_image %} style="background-image: url({{ wp_get_attachment_image_url(network.icon_image) }});" {% endif %} ></span>
+                </div>
+                <div class="icon-image-nav-container">
+                    <button type="button" class="icon-image-nav-remove {% if not network.icon_image %} not-active {% endif %}">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="icon-image-nav-upload">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
