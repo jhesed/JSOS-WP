@@ -26,3 +26,11 @@
 [Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
 [Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] Host: localhost
 [Wed, 19 Oct 2016 04:42:51 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Fri, 21 Oct 2016 06:58:54 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Fri, 21 Oct 2016 06:58:54 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Fri, 21 Oct 2016 06:58:54 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Fri, 21 Oct 2016 06:58:54 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden
+[Fri, 21 Oct 2016 07:03:20 +0000] [http://localhost/jsos_wp/.*] Connecting to  ...
+[Fri, 21 Oct 2016 07:03:20 +0000] [http://localhost/jsos_wp/.*] PURGE /jsos_wp/.* HTTP/1.1
+[Fri, 21 Oct 2016 07:03:20 +0000] [http://localhost/jsos_wp/.*] Host: localhost
+[Fri, 21 Oct 2016 07:03:20 +0000] [http://localhost/jsos_wp/.*] Bad response: HTTP/1.1 403 Forbidden

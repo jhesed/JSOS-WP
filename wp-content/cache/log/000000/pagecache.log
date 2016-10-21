@@ -1669,3 +1669,58 @@
 [Wed, 19 Oct 2016 04:50:58 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&8f7614e9832831b0a29510fe2c7a3d5d] [http://localhost/jsos_wp/about-us/] skip processing because of generic constant
 [Wed, 19 Oct 2016 04:51:00 +0000] [/jsos_wp/wp-admin/plugins.php?action=deactivate&plugin=wp-smushit%2Fwp-smush.php&plugin_status=all&paged=1&s&_wpnonce=ebf692af57] [http://localhost/jsos_wp/wp-admin/plugins.php] skip processing because of generic constant
 [Wed, 19 Oct 2016 04:51:02 +0000] [/jsos_wp/wp-admin/plugins.php?action=deactivate&plugin=w3-total-cache%2Fw3-total-cache.php&plugin_status=all&paged=1&s&_wpnonce=1d4050c9de] [http://localhost/jsos_wp/wp-admin/plugins.php] skip processing because of generic constant
+[Fri, 21 Oct 2016 06:58:44 +0000] [/jsos_wp/w3tc_rewrite_test27198] [http://localhost/jsos_wp/w3tc_rewrite_test27198] start, can_cache: false
+[Fri, 21 Oct 2016 06:58:48 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general] skip processing because of generic constant
+[Fri, 21 Oct 2016 06:58:54 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general] skip processing because of generic constant
+[Fri, 21 Oct 2016 06:58:59 +0000] [/jsos_wp/w3tc_rewrite_test27722] [http://localhost/jsos_wp/w3tc_rewrite_test27722] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:00 +0000] [/jsos_wp/wp-admin/admin-ajax.php] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:00:09 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:33 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] storing cached page: false original false reason User is logged in
+[Fri, 21 Oct 2016 07:00:33 +0000] [/jsos_wp/wp-content/cache/minify/8f728.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:33 +0000] [/jsos_wp/wp-content/cache/minify/dff4a.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:33 +0000] [/jsos_wp/wp-content/cache/minify/fc213.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:33 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:35 +0000] [/jsos_wp/wp-content/cache/minify/dff4a.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:35 +0000] [/jsos_wp/wp-content/cache/minify/fc213.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:35 +0000] [/jsos_wp/wp-content/cache/minify/8f728.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:35 +0000] [/jsos_wp/wp-content/cache/minify/530c3.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:36 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:36 +0000] [/jsos_wp/wp-content/cache/minify/6dde0.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:36 +0000] [/jsos_wp/wp-content/cache/minify/cc801.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:00:36 +0000] [/jsos_wp/wp-content/cache/minify/530c3.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:37 +0000] [/jsos_wp/wp-content/cache/minify/6dde0.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:37 +0000] [/jsos_wp/wp-content/cache/minify/cc801.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:00:37 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&81e2c1cbd29d49f778306ef316e32bf4] [http://localhost/jsos_wp/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:00:42 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:10 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bcae5d255] storing cached page: false original false reason User is logged in
+[Fri, 21 Oct 2016 07:01:10 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:10 +0000] [/jsos_wp/wp-content/cache/minify/fc213.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:10 +0000] [/jsos_wp/wp-content/cache/minify/8f728.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:10 +0000] [/jsos_wp/wp-content/cache/minify/dff4a.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:11 +0000] [/jsos_wp/wp-content/cache/minify/dff4a.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/fc213.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/8f728.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/530c3.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/cc801.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:12 +0000] [/jsos_wp/wp-content/cache/minify/6dde0.js] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:01:14 +0000] [/jsos_wp/wp-content/cache/minify/cc801.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:14 +0000] [/jsos_wp/wp-content/cache/minify/530c3.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:14 +0000] [/jsos_wp/wp-content/cache/minify/6dde0.js] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:01:14 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&81e2c1cbd29d49f778306ef316e32bf4] [http://localhost/jsos_wp/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:01:16 +0000] [/jsos_wp/wp-admin/] [http://localhost/jsos_wp/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:01:22 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=charitable_load_dashboard_donations_widget] [http://localhost/jsos_wp/wp-admin/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:01:22 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=dashboard-widgets&widget=dashboard_primary&pagenow=dashboard] [http://localhost/jsos_wp/wp-admin/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:01:49 +0000] [/jsos_wp/wp-admin/plugins.php] [http://localhost/jsos_wp/wp-admin/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:02:38 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general] [http://localhost/jsos_wp/wp-admin/plugins.php] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:02:43 +0000] [/jsos_wp/w3tc_rewrite_test5898] [http://localhost/jsos_wp/w3tc_rewrite_test5898] start, can_cache: false
+[Fri, 21 Oct 2016 07:03:15 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:03:20 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bdb8d5fed] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:03:25 +0000] [/jsos_wp/w3tc_rewrite_test6614] [http://localhost/jsos_wp/w3tc_rewrite_test6614] start, can_cache: false
+[Fri, 21 Oct 2016 07:03:29 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bdb8d5fed] start, can_cache: false
+[Fri, 21 Oct 2016 07:03:52 +0000] [/jsos_wp/] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bdb8d5fed] storing cached page: false original false reason User is logged in
+[Fri, 21 Oct 2016 07:03:52 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] start, can_cache: false
+[Fri, 21 Oct 2016 07:03:53 +0000] [/jsos_wp/wp-content/cache/minify/1f521.css] [http://localhost/jsos_wp/] storing cached page - not a cached content
+[Fri, 21 Oct 2016 07:03:53 +0000] [/jsos_wp/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&81e2c1cbd29d49f778306ef316e32bf4] [http://localhost/jsos_wp/] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:04:09 +0000] [/jsos_wp/wp-admin/plugins.php] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bdb8d5fed] skip processing because of generic constant
+[Fri, 21 Oct 2016 07:04:29 +0000] [/jsos_wp/wp-admin/admin.php?page=w3tc_general] [http://localhost/jsos_wp/wp-admin/admin.php?page=w3tc_general&w3tc_message=5809bdb8d5fed] skip processing because of generic constant
