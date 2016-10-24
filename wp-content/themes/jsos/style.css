@@ -368,6 +368,13 @@ ul.auh_bar{
     background: url(images/aboutus/auh_icons_hover.jpg) no-repeat -9999px -9999px;
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-left:0;
+    padding-right:0;
+  }
+}
+
 /******************************************************
                         DEPARTMENTS
 ******************************************************/
