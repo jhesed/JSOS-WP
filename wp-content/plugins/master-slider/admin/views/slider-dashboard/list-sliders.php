@@ -168,3 +168,57 @@ if( current_user_can( 'create_masterslider' ) ) { ?>
 
 <?php } ?>
 
+<?php
+    if( isset( $_GET['dismiss_phlox_notice'] ) && $_GET['dismiss_phlox_notice'] == 1 ){
+        set_transient( 'masterslider_display_phlox_notice', 1, 3 * DAY_IN_SECONDS );
+    }
+    if( false === get_transient( 'masterslider_display_phlox_notice' ) ) {
+        set_transient( 'masterslider_display_phlox_notice', 1, 5 * YEAR_IN_SECONDS );
+?>
+
+<div id="smd-modal-1" class="aux-smd-modal aux-smd-show">
+  <img src="<?php echo MSWP_AVERTA_ADMIN_URL; ?>/assets/images/thirdparty/phlox-popup.jpg" />
+  <a href="#" class="aux-smd-close" title="Close"></a>
+  <div class="msp-ad-btns-container">
+    <a href="http://avt.li/phmslpu" class="msp-ad-btn aux-md-get-now">Get it Now</a>
+    <a href="?page=master-slider&dismiss_phlox_notice=1" class="msp-ad-btn aux-md-try-later">Remind Me Later</a>
+  </div>
+</div>
+
+<div class="aux-smd-overlay"></div>
+
+<script>
+    (function($, window, document, undefined){
+        "use strict";
+
+        $(function(){
+            var $open  = $('.aux-smd-open'),
+                $close = $('.aux-smd-close'),
+                $modal = $('.aux-smd-modal');
+
+            if( ! $modal.length ){
+                return false;
+            }
+
+            if( $('.aux-smd-modal.aux-smd-show').length ){
+                $('body').addClass('aux-smd-no-scroll');
+            }
+
+            $open.on( 'click', function(e){
+                e.preventDefault();
+                $modal.addClass( 'aux-smd-show' );
+                $('body').addClass('aux-smd-no-scroll');
+            });
+
+            $close.on( 'click', function(e){
+                e.preventDefault();
+                $modal.removeClass( 'aux-smd-show' );
+                $('body').removeClass('aux-smd-no-scroll');
+            });
+
+        });
+
+    })(jQuery, window, document);
+</script>
+
+<?php } ?>

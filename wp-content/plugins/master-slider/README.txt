@@ -5,8 +5,8 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: banner rotator, carousel, content slider, gallery, image slider, responsive slider, showcase, slideshow, swipe, touch slider, video gallery, SEO, vertical slide, HTML5 slider, hardware accelerate, best slider, animation, mobile slider, iOS, android, video slider, youtube slider, horizontal slider, vertical slider, fullwidth slider, fullscreen slider, post slider, photo slider, online album, mobile slider, WordPress slider,wpml, ,ultisite, wistia, woocommerce, product slider, woocommerce slider, portfolio, gallery
 Requires at least: 4.0
-Tested up to: 4.6.0
-Stable tag: 2.9.0
+Tested up to: 4.6.1
+Stable tag: 2.9.5
 
 The most advanced responsive and HTML5 WordPress slider plugin with touch swipe navigation that works smoothly on desktop and devices.
 
@@ -18,6 +18,8 @@ The most advanced responsive and HTML5 WordPress slider plugin with touch swipe 
 = Overview =
 
 Master Slider is a free responsive image and content slider with super smooth hardware accelerated transitions. It supports touch navigation with pure swipe gesture that you have never experienced before. It's a truly responsive and device friendly slider which works perfectly in all major devices.
+
+>Looking for a perfect free theme for Master Slider? [Get Phlox theme for free](http://avt.li/msphpp "Phlox theme - Free Minimal and Responsive WordPress Theme")
 
 [youtube https://www.youtube.com/watch?v=nyjpGEHwOn8]
 
@@ -227,6 +229,9 @@ Bugs can be reported in our [support forums](http://wordpress.org/tags/master-sl
 
 == Changelog ==
 
+= Version 2.9.5 / (21.9.2016) =
+- [Fix]: Minor bugs fixes
+
 = Version 2.9.0 / (19.8.2016) =
 - [Improvement]: Better compatibility with Legacy WordPress themes
 - [Fix]: Minor bugs fixes
@@ -409,6 +414,5 @@ Bugs can be reported in our [support forums](http://wordpress.org/tags/master-sl
 
 == Upgrade Notice ==
 
-= Version 2.9.0 / (19.8.2016) =
-- [Improvement]: Better compatibility with Legacy WordPress themes
+= Version 2.9.5 / (21.9.2016) =
 - [Fix]: Minor bugs fixes

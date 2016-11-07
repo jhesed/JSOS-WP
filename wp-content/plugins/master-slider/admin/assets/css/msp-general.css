@@ -592,12 +592,17 @@ tbody .latest-updates {
 /** other **/
 .update-nag { display:none; }
 
+
 #contextual-help-link-wrap {
-	right: 20px;
-	border: none;
-	box-shadow: none;
-	background: url(../images/help.png) no-repeat 2px 2px;
-	z-index:3;
+    right:10px;
+    border: none;
+    box-shadow: none;
+    background: url(../images/help.png) no-repeat 2px 2px;
+    z-index:3;
+}
+
+.master-list #contextual-help-link-wrap{
+	right: 240px;
 }
 
 #screen-meta-links .screen-meta-toggle {
@@ -636,4 +641,115 @@ tbody .latest-updates {
     border: 1px solid #ff7676;
     background-color: #ffb8bd;
     color: #333;
+}
+
+
+/* Modal page */
+
+.aux-smd-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 100%;
+  min-width: 320px;
+  width: auto;
+  height: auto;
+  z-index: 10200;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.aux-smd-modal.aux-smd-show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.aux-smd-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  z-index: 10100;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.aux-smd-modal.aux-smd-show ~ .aux-smd-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.aux-smd-no-scroll {
+  overflow: hidden;
+}
+
+.aux-smd-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.msp-ad-btns-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 450px;
+}
+
+.msp-ad-btn {
+    padding: 12px 0;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 30px;
+    width: 145px;
+    display: inline-block;
+}
+.msp-ad-btn:hover {
+    text-decoration: underline;;
+}
+
+.aux-md-get-now,
+.aux-md-get-now:hover {
+    background: #3d3d3d;
+    color: #fff;
+    margin-right: 5px;
+}
+.aux-md-try-later,
+.aux-md-try-later:hover {
+    background: #fff;
+    color: #3d3d3d;
+}
+
+.msp-logo {
+    position:relative;
+}
+
+/* Only add badge on sliders list page */
+.master-list .msp-phlox-badge {
+    position:absolute;
+    width: 225px;
+    height: 80px;
+    top: 0;
+    right: 0;
+}
+.master-list .msp-phlox-badge a{
+    display:block;
+}
+.master-list .msp-logo .msp-phlox-badge img {
+    margin:0;
 }

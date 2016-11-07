@@ -107,6 +107,23 @@ function msp_request_remote_sample_sliders( $force_to_fetch = false ) {
 
 
 /**
+ * Adds Master Slider specific classes to admin body
+ * @param  string $classes The CSS classes for admin body
+ * @return string          The CSS classes for admin body
+ */
+function msp_add_master_admin_class( $classes ){
+    if( ! empty( $_GET['page'] ) && MSWP_SLUG == $_GET['page'] ){
+        $classes .= ' msp';
+    }
+    if( empty( $_GET['slider_id'] ) ){
+        $classes .= ' master-list';
+    }
+    return $classes;
+}
+add_filter( 'admin_body_class', 'msp_add_master_admin_class' );
+
+
+/**
  * Function to show premium sliders in "premium sliders" section
  */
 function msp_premium_sliders( $demos ) {

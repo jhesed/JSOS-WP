@@ -15,7 +15,7 @@ function msp_get_slider_starter_sections () {
         ),
         array(
             'id'  => 'masterslider_pro_custom_samples1',
-            'title' => __( 'Sample Sliders for PRO version (Upgrade to unlock)', 'master-slider' ),
+            'title' => sprintf( __( 'Sample Sliders for PRO version %s', 'master-slider' ), '( <a href="http://avt.li/msfunlock" target="_blank">'. __( 'Upgrade to unlock', 'master-slider' ) .'</a> )' ),
             'desc'  => ''
         )
     );

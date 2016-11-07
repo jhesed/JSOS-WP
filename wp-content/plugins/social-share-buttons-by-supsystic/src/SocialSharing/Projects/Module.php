@@ -116,7 +116,7 @@ class SocialSharing_Projects_Module extends SocialSharing_Core_BaseModule
         $ui->addAsset(
             $ui->create('script', 'sss-jquery-mouseWheel')
                 ->setExternalSource(
-                    'https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'
+                    'js/jquery.mousewheel.min.js'
                 )
                 ->setHookName($hookName)
                 ->setVersion('3.1.12')
